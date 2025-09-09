@@ -1,25 +1,50 @@
 /* Quote Page Styles */
 .quote-page {
   padding-top: 120px; /* Account for fixed header */
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #404040 100%);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.quote-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(156, 163, 175, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(209, 213, 219, 0.04) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  z-index: 1;
+}
+
+.quote-page > * {
+  position: relative;
+  z-index: 2;
 }
 
 .quote-hero {
   text-align: center;
   padding: 60px 0;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   margin-bottom: 60px;
 }
 
 .quote-hero h1 {
   font-size: 3rem;
   font-weight: 800;
-  color: #1e293b;
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-bottom: 20px;
 }
 
 .hero-subtitle {
   font-size: 1.25rem;
-  color: #64748b;
+  color: #cbd5e1;
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
@@ -35,11 +60,12 @@
 
 /* Quote Form */
 .quote-form-section {
-  background: white;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(217, 119, 6, 0.2);
   border-radius: 16px;
   padding: 40px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .quote-form {
@@ -49,7 +75,7 @@
 .form-section {
   margin-bottom: 40px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid rgba(217, 119, 6, 0.2);
 }
 
 .form-section:last-child {
@@ -60,8 +86,20 @@
 .form-section h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #1e293b;
+  color: white;
   margin-bottom: 24px;
+  position: relative;
+}
+
+.form-section h3::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  border-radius: 2px;
 }
 
 .form-row {
@@ -78,7 +116,7 @@
 
 .form-group label {
   font-weight: 600;
-  color: #374151;
+  color: #cbd5e1;
   margin-bottom: 8px;
   font-size: 14px;
 }
@@ -87,19 +125,26 @@
 .form-group select,
 .form-group textarea {
   padding: 12px 16px;
-  border: 2px solid #e5e7eb;
+  border: 2px solid rgba(217, 119, 6, 0.3);
   border-radius: 8px;
   font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
   transition: all 0.3s ease;
-  background: white;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #94a3b8;
 }
 
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  border-color: #f59e0b;
+  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.2);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .form-group textarea {
@@ -119,15 +164,16 @@
   align-items: center;
   cursor: pointer;
   padding: 12px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid rgba(217, 119, 6, 0.2);
   border-radius: 8px;
   transition: all 0.3s ease;
   position: relative;
+  color: #cbd5e1;
 }
 
 .checkbox-label:hover {
-  background: #f8fafc;
-  border-color: #3b82f6;
+  background: rgba(217, 119, 6, 0.1);
+  border-color: #f59e0b;
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -139,7 +185,7 @@
 .checkmark {
   width: 20px;
   height: 20px;
-  border: 2px solid #d1d5db;
+  border: 2px solid rgba(217, 119, 6, 0.3);
   border-radius: 4px;
   margin-right: 12px;
   position: relative;
@@ -147,8 +193,8 @@
 }
 
 .checkbox-label input[type="checkbox"]:checked + .checkmark {
-  background: #3b82f6;
-  border-color: #3b82f6;
+  background: #f59e0b;
+  border-color: #f59e0b;
 }
 
 .checkbox-label input[type="checkbox"]:checked + .checkmark::after {
@@ -169,18 +215,36 @@
   padding: 16px 32px;
   font-size: 18px;
   font-weight: 600;
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
   color: white;
   border: none;
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(217, 119, 6, 0.3);
+}
+
+.submit-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.submit-btn:hover::before {
+  left: 100%;
 }
 
 .submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(30, 58, 138, 0.3);
+  box-shadow: 0 8px 25px rgba(217, 119, 6, 0.4);
 }
 
 /* Quote Info Sidebar */
@@ -191,18 +255,38 @@
 }
 
 .info-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(217, 119, 6, 0.2);
   border-radius: 16px;
   padding: 32px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(217, 119, 6, 0.4);
 }
 
 .info-card h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #1e293b;
+  color: white;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.info-card h3::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  border-radius: 2px;
 }
 
 /* Process Steps */
@@ -221,7 +305,7 @@
 .step-number {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  background: linear-gradient(135deg, #d97706, #f59e0b);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -230,16 +314,17 @@
   font-weight: 600;
   font-size: 14px;
   flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(217, 119, 6, 0.3);
 }
 
 .step-content h4 {
   font-weight: 600;
-  color: #1e293b;
+  color: white;
   margin-bottom: 4px;
 }
 
 .step-content p {
-  color: #64748b;
+  color: #cbd5e1;
   font-size: 14px;
   line-height: 1.5;
   margin: 0;
@@ -254,7 +339,7 @@
 
 .benefits-list li {
   padding: 8px 0;
-  color: #374151;
+  color: #cbd5e1;
   font-size: 14px;
   line-height: 1.5;
 }
@@ -272,19 +357,38 @@
   align-items: center;
   gap: 12px;
   padding: 12px 16px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
+  background: rgba(217, 119, 6, 0.1);
+  border: 1px solid rgba(217, 119, 6, 0.2);
   border-radius: 8px;
   text-decoration: none;
-  color: #374151;
+  color: #f59e0b;
   font-weight: 500;
   transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.contact-btn:hover::before {
+  left: 0;
 }
 
 .contact-btn:hover {
-  background: #1e3a8a;
   color: white;
-  border-color: #1e3a8a;
+  border-color: #f59e0b;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(217, 119, 6, 0.3);
 }
 
 .contact-btn i {
