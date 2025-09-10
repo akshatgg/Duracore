@@ -32,7 +32,7 @@ const Products = () => {
                 <div className="product-specs">
                   <span className="spec">Available Thickness: 20mm, 30mm, 50mm</span>
                 </div>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ const Products = () => {
                   A thermal insulation sandwich panel is one that is made up of high-quality insulating 
                   materials- PIR, PU, or Mineral Wool.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -61,7 +61,7 @@ const Products = () => {
                   in between. They are highly preferred for their thermal conductivity, low combustibility 
                   and high mechanic resistance.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -76,7 +76,7 @@ const Products = () => {
                   smooth surface properties for lamination and finishing, ease of machining and low tool wear 
                   and are available in a wide variety of products and sizes.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -91,7 +91,7 @@ const Products = () => {
                   insulated panel used in the construction industry for creating partitions. It consists of 
                   a rigid Insulating layer sandwiched between two layers of board.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -106,7 +106,7 @@ const Products = () => {
                   the middle. It has been widely used as the building material of cold storages, cool rooms, 
                   clean rooms, free-dust workshops and exterior walls in cold places.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ const Products = () => {
                   Multi Color Roofing Sheets are coated with different colours via a chemical process. 
                   This ensures they retain they're colour and shine for a long time. Highly durable.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ const Products = () => {
                   music studios for decades, but they have become increasingly popular in office buildings, 
                   hotels, and schools too.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -163,7 +163,7 @@ const Products = () => {
                   bacteria can gather. The one piece encapsulation means that these cleanroom doors are 
                   100% waterproof.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -178,7 +178,7 @@ const Products = () => {
                   minus 40 ° C, as we need in laboratories, clinics, restaurants or food industries. It has 
                   excellent fire performance and great thermal insulation.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -193,7 +193,7 @@ const Products = () => {
                   with both single and double door features these FHC doors are available in different sizes, 
                   shapes and designs according to the customer's demands.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -207,7 +207,7 @@ const Products = () => {
                   A fire door is a door with a fire-resistance rating used as part of a passive fire 
                   protection system to reduce the spread of fire and smoke.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -223,7 +223,7 @@ const Products = () => {
                   always externally fitted. Most commercial and industrial buildings need to have fire 
                   exit doors due to fire regulations.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -238,7 +238,7 @@ const Products = () => {
                   than liquid or aerosol paint products, dry powder paint is sprayed at high velocity 
                   onto a metal surface.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -253,7 +253,7 @@ const Products = () => {
                   as emergency exit doors and fire escapes, doors that are used to protect electrical and 
                   mechanical installations and to prevent dangers from reflecting out are called shaft doors.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -268,7 +268,7 @@ const Products = () => {
                   Stainless steel is also the optimum door material where rust and corrosion are a concern. 
                   They are also very hygienic.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -290,7 +290,7 @@ const Products = () => {
                   These sheets are very helpful in reducing the concentrated loading effect of roofing 
                   on the building structures by proper distribution of load.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -303,7 +303,7 @@ const Products = () => {
                 <p>
                   We do Decking sheet installation services.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -325,7 +325,7 @@ const Products = () => {
                   more lightweight and are normally used to support walls and floors. Z purlins are 
                   stronger and used for roofing and walls.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -339,7 +339,7 @@ const Products = () => {
                   Purlin Assemblies come with a Hex Bolt, nut and 2 washers assembled. Purlins are used 
                   to support roof, framing and wall sheeting in industrial, commercial and rural buildings.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -360,7 +360,7 @@ const Products = () => {
                   between two surfaces, such as the edge between two walls or between a wall and the 
                   ceiling or floor.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -375,7 +375,7 @@ const Products = () => {
                   (Soft and rigid) of materials at one time. The flanges of coving is made in soft 
                   material that sticks to the panels and make smooth and fine finish.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -389,7 +389,7 @@ const Products = () => {
                   Purlin Assemblies come with a Hex Bolt, nut and 2 washers assembled. Purlins are used 
                   to support roof, framing and wall sheeting in industrial, commercial and rural buildings.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -410,7 +410,7 @@ const Products = () => {
                   and cracks of a roof. It is placed underneath the shingles of your roof and it redirects 
                   the water to another location.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -423,7 +423,7 @@ const Products = () => {
                 <p>
                   We have the Fixing Accessories like all kind of Screws & Rivets.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
@@ -439,7 +439,7 @@ const Products = () => {
                   are spun and melted, first forming a cotton candy-like material that is them formed 
                   into block-shaped slabs.
                 </p>
-                <a href="/contact" className="product-btn">Learn More</a>
+                <a href="/contact" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
