@@ -15,7 +15,7 @@ const Header = () => {
         <div className="container">
           <div className="nav-brand">
             <Link to="/" className='nav-brand-link'>
-              <img src="/src/assets/image.png" alt="Duracore" className='nav-brand-logo' />
+              <img src="/src/assets/logo.png" alt="Duracore" className='nav-brand-logo' />
               <h1>Duracore</h1>
             </Link>
           </div>
