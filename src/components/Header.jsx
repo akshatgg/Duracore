@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <nav className="main-nav">
         <div className="container">
-          <div className="nav-brand">
+          <div className="nav-brand">https://duracore.vercel.app/services
             <Link to="/" className='nav-brand-link'>
               <img src={logo} alt="Duracore" className='nav-brand-logo' />
               <h1>Duracore</h1>
