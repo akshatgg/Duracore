@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { db } from "../services/firebase";
 import { collection, getDocs } from "firebase/firestore";
-import { Circles } from "react-loader-spinner"; 
+import ClipLoader from "react-spinners/ClipLoader";
 import "./Dashboard.css";
-
 
 const Dashboard = () => {
   const [quotes, setQuotes] = useState([]);
@@ -30,16 +29,8 @@ const Dashboard = () => {
 
   if (loading) {
     return (
-      <div className="dashboard loader-container">
-        <Circles
-          height="80"
-          width="80"
-          color="#4fa94d"
-          ariaLabel="circles-loading"
-          wrapperStyle={{}}
-          wrapperClass=""
-          visible={true}
-        />
+      <div className="loader-container">
+        <ClipLoader color="#4fa94d" size={80} />
         <p>Loading quotes...</p>
       </div>
     );
