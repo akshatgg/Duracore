@@ -8,6 +8,8 @@ import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Products from './pages/Products'
 import Quote from './pages/Quote'
+import Dashboard from './pages/Dashboard'
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

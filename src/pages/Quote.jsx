@@ -1,44 +1,63 @@
-import { useState } from 'react'
-import './Quote.css'
+import { useState } from "react";
+import "./Quote.css";
+import { saveFormData } from "../services/firestoreService";
 
 const Quote = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    company: '',
-    projectType: '',
-    location: '',
-    area: '',
-    timeline: '',
-    budget: '',
-    description: '',
-    requirements: []
-  })
+    name: "",
+    email: "",
+    phone: "",
+    company: "",
+    projectType: "",
+    location: "",
+    area: "",
+    timeline: "",
+    budget: "",
+    description: "",
+    requirements: [],
+  });
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target
-    
-    if (type === 'checkbox') {
-      setFormData(prev => ({
-        ...prev,
-        requirements: checked 
-          ? [...prev.requirements, value]
-          : prev.requirements.filter(req => req !== value)
-      }))
-    } else {
-      setFormData(prev => ({
-        ...prev,
-        [name]: value
-      }))
-    }
-  }
+    const { name, value, type, checked } = e.target;
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log('Quote request submitted:', formData)
-    alert('Thank you for your quote request! Our team will contact you within 24 hours.')
-  }
+    if (type === "checkbox") {
+      setFormData((prev) => ({
+        ...prev,
+        requirements: checked
+          ? [...prev.requirements, value]
+          : prev.requirements.filter((req) => req !== value),
+      }));
+    } else {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+      }));
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const result = await saveFormData(formData);
+    if (result.success) {
+      alert("Form submitted successfully ✅");
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        company: "",
+        projectType: "",
+        location: "",
+        area: "",
+        timeline: "",
+        budget: "",
+        description: "",
+        requirements: [],
+      });
+    } else {
+      alert("Error: " + result.error.message);
+    }
+  };
+
 
   return (
     <div className="quote-page">
@@ -47,7 +66,8 @@ const Quote = () => {
         <section className="quote-hero">
           <h1>Get Your Custom Quote</h1>
           <p className="hero-subtitle">
-            Tell us about your project and we'll provide you with a detailed, competitive quote tailored to your needs.
+            Tell us about your project and we'll provide you with a detailed,
+            competitive quote tailored to your needs.
           </p>
         </section>
 
@@ -196,17 +216,17 @@ const Quote = () => {
                 <h3>Project Requirements</h3>
                 <div className="requirements-grid">
                   {[
-                    'Insulation Requirements',
-                    'HVAC Systems',
-                    'Electrical Installation',
-                    'Plumbing Systems',
-                    'Fire Safety Systems',
-                    'Security Systems',
-                    'Loading Docks',
-                    'Office Spaces',
-                    'Parking Areas',
-                    'Landscaping'
-                  ].map(requirement => (
+                    "Insulation Requirements",
+                    "HVAC Systems",
+                    "Electrical Installation",
+                    "Plumbing Systems",
+                    "Fire Safety Systems",
+                    "Security Systems",
+                    "Loading Docks",
+                    "Office Spaces",
+                    "Parking Areas",
+                    "Landscaping",
+                  ].map((requirement) => (
                     <label key={requirement} className="checkbox-label">
                       <input
                         type="checkbox"
@@ -286,7 +306,9 @@ const Quote = () => {
 
             <div className="info-card">
               <h3>Need Help?</h3>
-              <p>Have questions about your project? Our experts are here to help.</p>
+              <p>
+                Have questions about your project? Our experts are here to help.
+              </p>
               <div className="contact-options">
                 <a href="tel:+1-800-DURACORE" className="contact-btn">
                   <i className="fas fa-phone"></i>
@@ -302,7 +324,7 @@ const Quote = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Quote
+export default Quote;
