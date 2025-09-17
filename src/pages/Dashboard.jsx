@@ -38,49 +38,54 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
-      <h1>Submitted Quotes</h1>
-      {quotes.length === 0 ? (
-        <p>No quotes found.</p>
-      ) : (
-        <table className="quotes-table">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Phone</th>
-              <th>Company</th>
-              <th>Project Type</th>
-              <th>Location</th>
-              <th>Area</th>
-              <th>Timeline</th>
-              <th>Budget</th>
-              <th>Description</th>
-              <th>Requirements</th>
-            </tr>
-          </thead>
-          <tbody>
-            {quotes.map((q) => (
-              <tr key={q.id}>
-                <td>{q.name}</td>
-                <td>{q.email}</td>
-                <td>{q.phone}</td>
-                <td>{q.company || "-"}</td>
-                <td>{q.projectType}</td>
-                <td>{q.location}</td>
-                <td>{q.area}</td>
-                <td>{q.timeline || "-"}</td>
-                <td>{q.budget || "-"}</td>
-                <td>{q.description}</td>
-                <td>
-                  {q.requirements && q.requirements.length > 0
-                    ? q.requirements.join(", ")
-                    : "-"}
-                </td>
+      <aside className="dashboard-sidebar">
+        {/* Navigation links */}
+      </aside>
+      <main className="dashboard-content">
+        <h1>Submitted Quotes</h1>
+        {quotes.length === 0 ? (
+          <p>No quotes found.</p>
+        ) : (
+          <table className="quotes-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Company</th>
+                <th>Project Type</th>
+                <th>Location</th>
+                <th>Area</th>
+                <th>Timeline</th>
+                <th>Budget</th>
+                <th>Description</th>
+                <th>Requirements</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      )}
+            </thead>
+            <tbody>
+              {quotes.map((q) => (
+                <tr key={q.id}>
+                  <td>{q.name}</td>
+                  <td>{q.email}</td>
+                  <td>{q.phone}</td>
+                  <td>{q.company || "-"}</td>
+                  <td>{q.projectType}</td>
+                  <td>{q.location}</td>
+                  <td>{q.area}</td>
+                  <td>{q.timeline || "-"}</td>
+                  <td>{q.budget || "-"}</td>
+                  <td>{q.description}</td>
+                  <td>
+                    {q.requirements && q.requirements.length > 0
+                      ? q.requirements.join(", ")
+                      : "-"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </main>
     </div>
   );
 };

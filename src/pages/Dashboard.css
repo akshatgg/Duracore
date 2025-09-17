@@ -1,43 +1,77 @@
 .dashboard {
   min-height: 100vh;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
+  padding: 2.5rem 1.5rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #f8fafc 0%, #f3f4f6 100%);
 }
 
 .dashboard h1 {
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #333;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  color: #1e293b;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .quotes-table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 24px;
+  font-family: inherit;
+  transition: box-shadow 0.2s;
 }
 
 .quotes-table th,
 .quotes-table td {
-  padding: 0.75rem 1rem;
-  border: 1px solid #ddd;
+  padding: 1.1rem 1.5rem;
+  border-bottom: 1px solid #f3f4f6;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
+  vertical-align: middle;
 }
 
 .quotes-table th {
-  background-color: #f4f4f4;
-  font-weight: bold;
+  background-color: #fbbf24;
+  color: #222;
+  font-weight: 700;
+  border-bottom: 2px solid #f59e0b;
+  letter-spacing: 0.5px;
+}
+
+.quotes-table tr:last-child td {
+  border-bottom: none;
 }
 
 .quotes-table tr:nth-child(even) {
-  background-color: #fafafa;
+  background-color: #f9fafb;
 }
 
 .quotes-table tr:hover {
-  background-color: #f1f1f1;
+  background-color: #fef3c7;
+  transition: background 0.2s;
 }
 
+.quotes-table td {
+  color: #333;
+}
+
+.quotes-table th:first-child,
+.quotes-table td:first-child {
+  border-top-left-radius: 16px;
+}
+
+.quotes-table th:last-child,
+.quotes-table td:last-child {
+  border-top-right-radius: 16px;
+}
+
+/* Loader styling */
 .loader-container {
   display: flex;
   flex-direction: column;
@@ -46,5 +80,39 @@
   min-height: 50vh;
   gap: 1rem;
   color: #555;
+  font-size: 1.1rem;
+}
+
+/* Responsive table */
+@media (max-width: 700px) {
+  .quotes-table,
+  .quotes-table thead,
+  .quotes-table tbody,
+  .quotes-table th,
+  .quotes-table td,
+  .quotes-table tr {
+    display: block;
+    width: 100%;
+  }
+  .quotes-table th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .quotes-table td {
+    position: relative;
+    padding-left: 50%;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+  }
+  .quotes-table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 1.5rem;
+    top: 1rem;
+    font-weight: 700;
+    color: #f59e0b;
+    white-space: nowrap;
+  }
 }
 
