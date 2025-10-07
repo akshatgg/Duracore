@@ -64,8 +64,8 @@ const Footer = () => {
                   <i className="fas fa-map-marker-alt"></i>
                 </div>
                 <div className="contact-details">
-                  <span>123 Industrial District</span>
-                  <span>Mumbai, Maharashtra 400001</span>
+                  <span>Opp. KIET College</span>
+                  <span>Ghaziabad, Uttar Pradesh 201206</span>
                 </div>
               </div>
               <div className="contact-item">
@@ -73,8 +73,7 @@ const Footer = () => {
                   <i className="fas fa-phone"></i>
                 </div>
                 <div className="contact-details">
-                  <span>+1-800-DURACORE</span>
-                  <span>+91-22-1234-5678</span>
+                  <span>+91 7217044347</span>
                 </div>
               </div>
               <div className="contact-item">
@@ -82,8 +81,7 @@ const Footer = () => {
                   <i className="fas fa-envelope"></i>
                 </div>
                 <div className="contact-details">
-                  <span>info@duracore.com</span>
-                  <span>sales@duracore.com</span>
+                  <span>sales@duracore.in</span>
                 </div>
               </div>
             </div>
@@ -101,9 +99,7 @@ const Footer = () => {
               <p>&copy; 2024 Duracore. All rights reserved.</p>
             </div>
             <div className="footer-bottom-links">
-              <a href="/privacy">Privacy Policy</a>
-              <a href="/terms">Terms of Service</a>
-              <a href="/sitemap">Sitemap</a>
+            
             </div>
           </div>
         </div>

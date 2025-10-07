@@ -138,7 +138,7 @@ const Contact = () => {
                 </div>
                 <div className="method-content">
                   <h4>Corporate Office</h4>
-                  <p>123 Construction Plaza<br />Business District<br />Mumbai, Maharashtra 400001</p>
+                  <p>Opp. KIET College<br />Ghaziabad, Uttar Pradesh 201206</p>
                 </div>
               </div>
 
@@ -148,7 +148,7 @@ const Contact = () => {
                 </div>
                 <div className="method-content">
                   <h4>Phone Numbers</h4>
-                  <p>+1-800-DURACORE<br />+91-22-1234-5678</p>
+                  <p>7217044347</p>
                 </div>
               </div>
 
@@ -158,7 +158,7 @@ const Contact = () => {
                 </div>
                 <div className="method-content">
                   <h4>Email Addresses</h4>
-                  <p>info@duracore.com<br />sales@duracore.com</p>
+                  <p>sales@duracore.in</p>
                 </div>
               </div>
 
@@ -187,7 +187,7 @@ const Contact = () => {
                 <div className="quick-card">
                   <h4>Technical Support</h4>
                   <p>Get help with existing projects</p>
-                  <a href="mailto:support@duracore.com" className="btn btn-secondary">
+                  <a href="mailto:support@duracore.in" className="btn btn-secondary">
                     Get Support
                   </a>
                 </div>
@@ -203,7 +203,7 @@ const Contact = () => {
             <div className="map-placeholder">
               <i className="fas fa-map-marked-alt"></i>
               <p>Interactive Map Coming Soon</p>
-              <p className="map-address">123 Construction Plaza, Business District, Mumbai, Maharashtra 400001</p>
+              <p className="map-address">Opp. KIET College Ghaziabad, Uttar Pradesh 201206</p>
             </div>
           </div>
         </section>
