@@ -18,27 +18,10 @@ const Products = () => {
         <section className="product-category">
           <h2>Sandwich Insulated Panels</h2>
           <div className="products-grid">
-            <div className="product-card">
-              <div className="product-image">
-                <div className="placeholder-image">PU Roof Panels</div>
-              </div>
-              <div className="product-content">
-                <h3>PU Roof Panels</h3>
-                <p>
-                  Polyurethane (PU) Metal is a revolutionary way of roofing with outstanding thermal efficiency. 
-                  It is factory manufactured by bonding CFC-free Rigid Polyurethane (PO) foam between exterior 
-                  and interior skin of profiled metal roofing sheets.
-                </p>
-                <div className="product-specs">
-                  <span className="spec">Available Thickness: 20mm, 30mm, 50mm</span>
-                </div>
-                <a href="/contact" className="product-btn">Explore Service →</a>
-              </div>
-            </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Fire Proof Sandwich Panels</div>
+                <img src="https://cpimg.tistatic.com/07066514/b/4/Roof-Sandwich-Panel.jpg" alt="Fire Proof Sandwich Panels" />
               </div>
               <div className="product-content">
                 <h3>Fire Proof Sandwich Panels</h3>
@@ -46,28 +29,13 @@ const Products = () => {
                   A thermal insulation sandwich panel is one that is made up of high-quality insulating 
                   materials- PIR, PU, or Mineral Wool.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Rockwool Panels</div>
-              </div>
-              <div className="product-content">
-                <h3>Rockwool Panels</h3>
-                <p>
-                  Rockwool Sandwich Panel has a metal sheet covering on either side with rockwool filling 
-                  in between. They are highly preferred for their thermal conductivity, low combustibility 
-                  and high mechanic resistance.
-                </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
-              </div>
-            </div>
-
-            <div className="product-card">
-              <div className="product-image">
-                <div className="placeholder-image">Fire Proof Panels</div>
+                <img src="https://www.brdecomy.com/d/images/pu%20sealing%20rock%20wool%20roof%20sandwich%20panel%20800x480%20(1).jpg" alt="Rockwool Panels" />
               </div>
               <div className="product-content">
                 <h3>Fire Proof Panels</h3>
@@ -76,13 +44,13 @@ const Products = () => {
                   smooth surface properties for lamination and finishing, ease of machining and low tool wear 
                   and are available in a wide variety of products and sizes.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">EPS Panels</div>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/11/467474710/XI/DU/FI/9369319/eps-sandwich-panel.jpeg" alt="EPS Panels" />
               </div>
               <div className="product-content">
                 <h3>EPS Panels</h3>
@@ -91,13 +59,13 @@ const Products = () => {
                   insulated panel used in the construction industry for creating partitions. It consists of 
                   a rigid Insulating layer sandwiched between two layers of board.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Cam Lock Panels</div>
+                <img src="https://5.imimg.com/data5/TY/OQ/MY-13213484/cam-lock-puf-panel.jpg" alt="Cam Lock Panels" />
               </div>
               <div className="product-content">
                 <h3>Cam Lock Panels</h3>
@@ -106,7 +74,7 @@ const Products = () => {
                   the middle. It has been widely used as the building material of cold storages, cool rooms, 
                   clean rooms, free-dust workshops and exterior walls in cold places.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -118,7 +86,7 @@ const Products = () => {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Multi Color Roofing Sheets</div>
+                <img src="https://cpimg.tistatic.com/06456699/b/4/Multicolor-Roofing-Sheet.jpg" alt="Multi Color Roofing Sheets" />
               </div>
               <div className="product-content">
                 <h3>Multi Color Roofing Sheets</h3>
@@ -126,7 +94,7 @@ const Products = () => {
                   Multi Color Roofing Sheets are coated with different colours via a chemical process. 
                   This ensures they retain they're colour and shine for a long time. Highly durable.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -138,7 +106,7 @@ const Products = () => {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Acoustic Door</div>
+                <img src="https://www.auralexchange.com/wp-content/uploads/2017/12/isogate1.jpg" alt="Acoustic Door" />
               </div>
               <div className="product-content">
                 <h3>Acoustic Door</h3>
@@ -148,13 +116,13 @@ const Products = () => {
                   music studios for decades, but they have become increasingly popular in office buildings, 
                   hotels, and schools too.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Clean Room Door</div>
+                <img src="https://5.imimg.com/data5/TS/AC/MY-10662303/clean-room-door-500x500.jpg" alt="Clean Room Door" />
               </div>
               <div className="product-content">
                 <h3>Clean Room Door</h3>
@@ -163,13 +131,13 @@ const Products = () => {
                   bacteria can gather. The one piece encapsulation means that these cleanroom doors are 
                   100% waterproof.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Cold Room Door</div>
+                <img src="https://3.imimg.com/data3/NG/NR/MY-1375819/cold-storage-door.jpg" alt="Cold Room Door" />
               </div>
               <div className="product-content">
                 <h3>Cold Room Door</h3>
@@ -178,13 +146,13 @@ const Products = () => {
                   minus 40 ° C, as we need in laboratories, clinics, restaurants or food industries. It has 
                   excellent fire performance and great thermal insulation.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">FHC Door</div>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2025/2/491921813/BO/YU/WS/84302421/fhc-door.jpg" alt="FHC Door" />
               </div>
               <div className="product-content">
                 <h3>FHC Door</h3>
@@ -193,13 +161,13 @@ const Products = () => {
                   with both single and double door features these FHC doors are available in different sizes, 
                   shapes and designs according to the customer's demands.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Fire Proof Door</div>
+                <img src="https://ahlada.com/wp-content/uploads/2024/05/Fire-Rated-Door-Manufacturers-In-India.jpg" alt="Fire Proof Door" />
               </div>
               <div className="product-content">
                 <h3>Fire Proof Door</h3>
@@ -207,44 +175,13 @@ const Products = () => {
                   A fire door is a door with a fire-resistance rating used as part of a passive fire 
                   protection system to reduce the spread of fire and smoke.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Fire Exit Door</div>
-              </div>
-              <div className="product-content">
-                <h3>Fire Exit Door</h3>
-                <p>
-                  A fire exit door is a type of door that leads people outside in the event of a fire. 
-                  You will typically see these doors on the outsides of buildings since they are almost 
-                  always externally fitted. Most commercial and industrial buildings need to have fire 
-                  exit doors due to fire regulations.
-                </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
-              </div>
-            </div>
-
-            <div className="product-card">
-              <div className="product-image">
-                <div className="placeholder-image">Powder Coated Metal Door</div>
-              </div>
-              <div className="product-content">
-                <h3>Powder Coated Metal Door</h3>
-                <p>
-                  Powder coating a steel entry door can be thought of as a dry painting process. Rather 
-                  than liquid or aerosol paint products, dry powder paint is sprayed at high velocity 
-                  onto a metal surface.
-                </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
-              </div>
-            </div>
-
-            <div className="product-card">
-              <div className="product-image">
-                <div className="placeholder-image">Shaft Door</div>
+                <img src="https://www.tatapravesh.com/wp-content/uploads/2019/04/Tata-Pravesh-Shaft-Doors.jpg" alt="Shaft Door" />
               </div>
               <div className="product-content">
                 <h3>Shaft Door</h3>
@@ -253,22 +190,7 @@ const Products = () => {
                   as emergency exit doors and fire escapes, doors that are used to protect electrical and 
                   mechanical installations and to prevent dangers from reflecting out are called shaft doors.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
-              </div>
-            </div>
-
-            <div className="product-card">
-              <div className="product-image">
-                <div className="placeholder-image">Stainless Steel Door</div>
-              </div>
-              <div className="product-content">
-                <h3>Stainless Steel Door</h3>
-                <p>
-                  Design professionals generally specify stainless steel doors for their sleek appearance. 
-                  Stainless steel is also the optimum door material where rust and corrosion are a concern. 
-                  They are also very hygienic.
-                </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -280,7 +202,7 @@ const Products = () => {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Decking Sheet</div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzttCe1BIEwiDSwef0vX91GxWeriBVkYfsSg&s" alt="Decking Sheet" />
               </div>
               <div className="product-content">
                 <h3>Decking Sheet</h3>
@@ -290,20 +212,20 @@ const Products = () => {
                   These sheets are very helpful in reducing the concentrated loading effect of roofing 
                   on the building structures by proper distribution of load.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Decking Installation</div>
+                <img src="https://i.pinimg.com/736x/25/dd/86/25dd86000cf95ee69e28db3c3bb87447.jpg" alt="Decking Installation" />
               </div>
               <div className="product-content">
                 <h3>Decking Installation</h3>
                 <p>
                   We do Decking sheet installation services.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -315,7 +237,7 @@ const Products = () => {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Z & C Purlin</div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcs-yc52oS-mZWjvw-2EUx-AT82ZP9VXPXkg&s" alt="Z & C Purlin" />
               </div>
               <div className="product-content">
                 <h3>Z & C Purlin</h3>
@@ -325,13 +247,13 @@ const Products = () => {
                   more lightweight and are normally used to support walls and floors. Z purlins are 
                   stronger and used for roofing and walls.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Z & C Purlin Assembly</div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowNP6XtIbNuaArwAL29BaeTlWsacM5FJewQ&s" alt="Z & C Purlin Assembly" />
               </div>
               <div className="product-content">
                 <h3>Z & C Purlin Assembly</h3>
@@ -339,7 +261,7 @@ const Products = () => {
                   Purlin Assemblies come with a Hex Bolt, nut and 2 washers assembled. Purlins are used 
                   to support roof, framing and wall sheeting in industrial, commercial and rural buildings.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>
@@ -351,7 +273,7 @@ const Products = () => {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Coving & Corner</div>
+                <img src="https://www.supercove.co.uk/wp-content/uploads/2022/08/Vi-Cove3359-scaled.jpg" alt="Coving & Corner" />
               </div>
               <div className="product-content">
                 <h3>Coving & Corner</h3>
@@ -360,13 +282,13 @@ const Products = () => {
                   between two surfaces, such as the edge between two walls or between a wall and the 
                   ceiling or floor.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">PVC Inner Coving</div>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2025/3/493103579/UR/ZH/ZZ/9258158/pvc-coving-500x500.jpg" alt="PVC Inner Coving" />
               </div>
               <div className="product-content">
                 <h3>PVC Inner Coving</h3>
@@ -375,23 +297,10 @@ const Products = () => {
                   (Soft and rigid) of materials at one time. The flanges of coving is made in soft 
                   material that sticks to the panels and make smooth and fine finish.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
-
-            <div className="product-card">
-              <div className="product-image">
-                <div className="placeholder-image">3D Corner</div>
-              </div>
-              <div className="product-content">
-                <h3>3D Corner</h3>
-                <p>
-                  Purlin Assemblies come with a Hex Bolt, nut and 2 washers assembled. Purlins are used 
-                  to support roof, framing and wall sheeting in industrial, commercial and rural buildings.
-                </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
-              </div>
-            </div>
+            
           </div>
         </section>
 
@@ -401,7 +310,7 @@ const Products = () => {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Flashing</div>
+                <img src="https://www.malurtubes.com/wp-content/uploads/2022/07/roofing-accessories-1-600x600.jpg" alt="Flashing" />
               </div>
               <div className="product-content">
                 <h3>Flashing</h3>
@@ -410,26 +319,13 @@ const Products = () => {
                   and cracks of a roof. It is placed underneath the shingles of your roof and it redirects 
                   the water to another location.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
 
             <div className="product-card">
               <div className="product-image">
-                <div className="placeholder-image">Screws & Rivets</div>
-              </div>
-              <div className="product-content">
-                <h3>Screws & Rivets</h3>
-                <p>
-                  We have the Fixing Accessories like all kind of Screws & Rivets.
-                </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
-              </div>
-            </div>
-
-            <div className="product-card">
-              <div className="product-image">
-                <div className="placeholder-image">Rockwool Slab</div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx_NWaDaO98-uREEWM6lM33ScEZfHV8nGP9A&s" alt="Rockwool Slab" />
               </div>
               <div className="product-content">
                 <h3>Rockwool Slab</h3>
@@ -439,7 +335,7 @@ const Products = () => {
                   are spun and melted, first forming a cotton candy-like material that is them formed 
                   into block-shaped slabs.
                 </p>
-                <a href="/contact" className="product-btn">Explore Service →</a>
+                <a href="/quote" className="product-btn">Explore Service →</a>
               </div>
             </div>
           </div>

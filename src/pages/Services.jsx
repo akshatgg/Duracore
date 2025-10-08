@@ -86,9 +86,7 @@ const Services = () => {
                       </span>
                     ))}
                   </div>
-                  <a href={service.link} className="service-link">
-                    Explore Service →
-                  </a>
+                  <a href={`/services/pre-engineered-buildings`} className="service-btn">Explore →</a>
                 </div>
               </div>
             ))}

@@ -1,0 +1,80 @@
+.service-details-page {
+  max-width: 800px;
+  margin: 60px auto 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.10);
+  padding: 48px 32px 40px 32px;
+  position: relative;
+}
+
+.service-details-page h1 {
+  font-size: 2.4rem;
+  color: #d97706;
+  margin-bottom: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.service-details-page h2 {
+  font-size: 1.5rem;
+  color: #374151;
+  margin-bottom: 28px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.service-details-page p {
+  color: #475569;
+  font-size: 1.13rem;
+  margin-bottom: 22px;
+  line-height: 1.7;
+}
+
+.installation-steps {
+  margin: 28px 0 32px 0;
+  padding-left: 1.3em;
+}
+
+.installation-steps li {
+  margin-bottom: 14px;
+  font-size: 1.08rem;
+  color: #1e293b;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 8px;
+}
+
+.installation-steps li::before {
+  content: "•";
+  color: #f59e0b;
+  font-size: 1.2em;
+  position: absolute;
+  left: -16px;
+  top: 0;
+}
+
+.service-details-page a {
+  color: #d97706;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.service-details-page a:hover {
+  color: #b45309;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .service-details-page {
+    padding: 24px 8px 24px 8px;
+    margin: 32px 0 24px 0;
+  }
+  .service-details-page h1 {
+    font-size: 1.5rem;
+  }
+  .service-details-page h2 {
+    font-size: 1.1rem;
+  }
+}
