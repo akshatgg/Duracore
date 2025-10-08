@@ -310,11 +310,11 @@ const Quote = () => {
                 Have questions about your project? Our experts are here to help.
               </p>
               <div className="contact-options">
-                <a href="tel:+1-800-DURACORE" className="contact-btn">
+                <a href="7217044347" className="contact-btn">
                   <i className="fas fa-phone"></i>
                   Call Us
                 </a>
-                <a href="mailto:sales@duracore.com" className="contact-btn">
+                <a href="mailto:sales@duracore.in" className="contact-btn">
                   <i className="fas fa-envelope"></i>
                   Email Us
                 </a>

@@ -9,6 +9,7 @@ import Services from './pages/Services'
 import Products from './pages/Products'
 import Quote from './pages/Quote'
 import Dashboard from './pages/Dashboard'
+import ServiceDetails from './pages/ServiceDetails'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/:serviceId" element={<ServiceDetails />} />
           <Route path="/products" element={<Products />} />
           <Route path="/quote" element={<Quote />} />
         </Routes>

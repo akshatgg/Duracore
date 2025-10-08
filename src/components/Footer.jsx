@@ -39,7 +39,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/services">Our Services</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
+              <li><Link to="/products">Products</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
@@ -48,10 +48,18 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Services</h4>
             <ul className="footer-links">
-              <li><a href="/pre-engineered-buildings">Pre Engineered Buildings</a></li>
-              <li><a href="/modular-structures">Modular Structures</a></li>
-              <li><a href="/construction-panels">Construction Panels</a></li>
-              <li><a href="/epc-solutions">EPC Solutions</a></li>
+              <li>
+                <Link to="/services/pre-engineered-buildings">Pre Engineered Buildings</Link>
+              </li>
+              <li>
+                <Link to="/services/modular-structures">Modular Structures</Link>
+              </li>
+              <li>
+                <Link to="/services/construction-panels">Construction Panels</Link>
+              </li>
+              <li>
+                <Link to="/services/epc-solutions">EPC Solutions</Link>
+              </li>
             </ul>
           </div>
 
@@ -64,8 +72,8 @@ const Footer = () => {
                   <i className="fas fa-map-marker-alt"></i>
                 </div>
                 <div className="contact-details">
-                  <span>123 Industrial District</span>
-                  <span>Mumbai, Maharashtra 400001</span>
+                  <span>Opp. KIET College</span>
+                  <span>Ghaziabad, Uttar Pradesh 201206</span>
                 </div>
               </div>
               <div className="contact-item">
@@ -73,8 +81,7 @@ const Footer = () => {
                   <i className="fas fa-phone"></i>
                 </div>
                 <div className="contact-details">
-                  <span>+1-800-DURACORE</span>
-                  <span>+91-22-1234-5678</span>
+                  <span>+91 7217044347</span>
                 </div>
               </div>
               <div className="contact-item">
@@ -82,8 +89,7 @@ const Footer = () => {
                   <i className="fas fa-envelope"></i>
                 </div>
                 <div className="contact-details">
-                  <span>info@duracore.com</span>
-                  <span>sales@duracore.com</span>
+                  <span>sales@duracore.in</span>
                 </div>
               </div>
             </div>
@@ -101,9 +107,7 @@ const Footer = () => {
               <p>&copy; 2024 Duracore. All rights reserved.</p>
             </div>
             <div className="footer-bottom-links">
-              <a href="/privacy">Privacy Policy</a>
-              <a href="/terms">Terms of Service</a>
-              <a href="/sitemap">Sitemap</a>
+            
             </div>
           </div>
         </div>
