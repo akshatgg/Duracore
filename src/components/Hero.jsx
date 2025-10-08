@@ -3,14 +3,16 @@ import './Hero.css'
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="hero-background">
-        <div className="hero-overlay"></div>
+      {/* Background Image Container */}
+      <div className="hero-image-container">
+        <img src="https://www.panjetanibuildwell.com/assets/img/puf1.jpg" alt="Hero Background" />
       </div>
-      
-      <div className="container">
+
+      {/* Content Container (separate) */}
+      <div className="hero-content-container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Professional Construction Solutions</h1>
+            <h1>Professional<h1 classname="harsh"> Construction Solutions</h1></h1>
             <p className="hero-description">
               Leading provider of pre-engineered buildings and modular construction solutions. 
               Quality engineering, timely delivery, and exceptional service for your projects.
@@ -24,11 +26,11 @@ const Hero = () => {
 
           <div className="hero-stats">
             <div className="stat-card">
-              <div className="stat-number">25+</div>
+              <div className="stat-number">5+</div>
               <div className="stat-label">Years Experience</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">1000+</div>
+              <div className="stat-number">250+</div>
               <div className="stat-label">Projects Delivered</div>
             </div>
             <div className="stat-card">
