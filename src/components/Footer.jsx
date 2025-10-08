@@ -39,7 +39,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/services">Our Services</Link></li>
-              <li><Link to="/projects">Products</Link></li>
+              <li><Link to="/products">Products</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
@@ -48,10 +48,18 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Services</h4>
             <ul className="footer-links">
-              <li><a href="/pre-engineered-buildings">Pre Engineered Buildings</a></li>
-              <li><a href="/modular-structures">Modular Structures</a></li>
-              <li><a href="/construction-panels">Construction Panels</a></li>
-              <li><a href="/epc-solutions">EPC Solutions</a></li>
+              <li>
+                <Link to="/services/pre-engineered-buildings">Pre Engineered Buildings</Link>
+              </li>
+              <li>
+                <Link to="/services/modular-structures">Modular Structures</Link>
+              </li>
+              <li>
+                <Link to="/services/construction-panels">Construction Panels</Link>
+              </li>
+              <li>
+                <Link to="/services/epc-solutions">EPC Solutions</Link>
+              </li>
             </ul>
           </div>
 
