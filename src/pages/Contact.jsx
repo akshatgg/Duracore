@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './Contact.css'
-import SEO from '../components/SEO'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -28,12 +27,6 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
-      <SEO
-        title="Contact Us - Get Quote for Pre-Engineered Buildings"
-        description="Contact Duracore for pre-engineered buildings and prefabricated structures. Located in Ghaziabad, UP. Call 7217044347 or email sales@duracore.in. Free consultation available."
-        keywords="contact duracore, PEB manufacturer contact, steel building quote, prefab building inquiry, construction consultation, Ghaziabad construction company"
-        canonical="/contact"
-      />
       <div className="container">
         {/* Hero Section */}
         <section className="contact-hero">

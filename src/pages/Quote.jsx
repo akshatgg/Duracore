@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./Quote.css";
 import { saveFormData } from "../services/firestoreService";
-import SEO from '../components/SEO';
 
 const Quote = () => {
   const [formData, setFormData] = useState({
@@ -62,12 +61,6 @@ const Quote = () => {
 
   return (
     <div className="quote-page">
-      <SEO
-        title="Get Instant Quote - Pre-Engineered Buildings & Steel Structures"
-        description="Get free instant quote for pre-engineered buildings, prefabricated structures, and modular construction. Fast turnaround, competitive pricing. Fill the form and get response within 24 hours."
-        keywords="get PEB quote, steel building quote, prefab structure pricing, construction quote online, instant building estimate, free consultation"
-        canonical="/quote"
-      />
       <div className="container">
         {/* Hero Section */}
         <section className="quote-hero">

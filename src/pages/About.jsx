@@ -1,15 +1,8 @@
 import './About.css'
-import SEO from '../components/SEO'
 
 const About = () => {
   return (
     <div className="about-page">
-      <SEO
-        title="About Us - Leading PEB & Prefab Building Manufacturer"
-        description="Duracore has 5+ years of excellence in pre-engineered buildings and prefabricated structures. 250+ projects completed, 300+ happy clients. Innovative, sustainable construction solutions across India."
-        keywords="about duracore, PEB company India, prefab building manufacturer, construction company, steel building solutions, industrial construction experts"
-        canonical="/about"
-      />
       <div className="container">
         {/* Hero Section */}
         <section className="about-hero">
