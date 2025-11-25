@@ -1,8 +1,15 @@
 import './Products.css'
+import SEO from '../components/SEO'
 
 const Products = () => {
   return (
     <div className="products-page">
+      <SEO
+        title="Our Products - Sandwich Panels, Steel Decking, Fire Doors, Purlins"
+        description="Quality construction products: Sandwich Insulated Panels, Steel Decking Sheets, Rockwool Panels, Fire Exit Doors, Z&C Purlins. Solutions for cold chain, clean rooms, and prefab shelters."
+        keywords="sandwich panels, steel decking sheets, rockwool panels, fire exit doors, Z purlin, C purlin, insulated panels, cold chain solutions, clean room panels"
+        canonical="/products"
+      />
       <div className="container">
         {/* Hero Section */}
         <section className="products-hero">

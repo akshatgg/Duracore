@@ -1,4 +1,5 @@
 import './Services.css'
+import SEO from '../components/SEO'
 
 const Services = () => {
   const services = [
@@ -54,6 +55,12 @@ const Services = () => {
 
   return (
     <div className="services-page">
+      <SEO
+        title="Our Services - PEB, Prefab Structures & Steel Building Solutions"
+        description="Complete construction solutions: Pre-Engineered Buildings (PEB), Prefabricated Structures, Light Gauge Steel Framing, Sandwich Panels, Modular Solutions, and EPC Services. Fast installation, cost-effective, durable."
+        keywords="PEB services, pre-engineered building services, prefabricated structures, light gauge steel framing, sandwich panels, modular construction, EPC solutions, steel building construction"
+        canonical="/services"
+      />
       <div className="container">
         {/* Hero Section */}
         <section className="services-hero">
