@@ -1,17 +1,13 @@
-# Duracore Robots.txt
+# Duracore - Pre Engineered Buildings & Prefabricated Structures
+# Official website: https://duracore.in
+
 User-agent: *
 Allow: /
+Disallow: /dashboard
+Disallow: /admin
 
 # Sitemap location
 Sitemap: https://duracore.in/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 10
-
-# Disallow admin/dashboard pages
-User-agent: *
-Disallow: /dashboard
-Disallow: /admin
 
 # Allow all major search engines
 User-agent: Googlebot

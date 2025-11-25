@@ -5,17 +5,17 @@ const Hero = () => {
     <section className="hero">
       {/* Background Image Container */}
       <div className="hero-image-container">
-        <img src="https://www.panjetanibuildwell.com/assets/img/puf1.jpg" alt="Hero Background" />
+        <img src="https://www.panjetanibuildwell.com/assets/img/puf1.jpg" alt="Duracore - Pre Engineered Buildings" />
       </div>
 
       {/* Content Container (separate) */}
       <div className="hero-content-container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Professional<h1 classname="harsh"> Construction Solutions</h1></h1>
+            <h1>Duracore - Professional Pre-Engineered Building Solutions</h1>
             <p className="hero-description">
-              Leading provider of pre-engineered buildings and modular construction solutions. 
-              Quality engineering, timely delivery, and exceptional service for your projects.
+              Duracore is a leading provider of pre-engineered buildings and modular construction solutions.
+              Quality engineering, timely delivery, and exceptional service for your projects. Trust Duracore for all your PEB needs.
             </p>
             
             <div className="hero-cta">
