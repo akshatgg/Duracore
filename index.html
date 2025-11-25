@@ -10,10 +10,19 @@
     <meta name="title" content="Duracore - Pre Engineered Buildings & Prefabricated Structures in India" />
     <meta name="description" content="Leading manufacturer of pre-engineered buildings, prefabricated structures, light gauge steel framing, and sandwich panels. 250+ projects completed across India. Get instant quote!" />
     <meta name="keywords" content="pre engineered buildings, PEB manufacturer, prefabricated structures, steel buildings India, modular construction, sandwich panels, light gauge steel framing, EPC solutions, industrial buildings, warehouse construction" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
     <meta name="language" content="English" />
     <meta name="author" content="Duracore" />
+    <meta name="revisit-after" content="7 days" />
     <link rel="canonical" href="https://duracore.in/" />
+
+    <!-- Verification Tags (Add your verification codes here when available) -->
+    <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" /> -->
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/logo.png" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -45,17 +54,30 @@
       "@type": "Organization",
       "name": "Duracore",
       "url": "https://duracore.in",
-      "logo": "https://duracore.in/logo.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://duracore.in/logo.png",
+        "width": 518,
+        "height": 482
+      },
+      "image": "https://duracore.in/logo.png",
       "description": "Leading manufacturer of pre-engineered buildings and prefabricated structures in India",
       "foundingDate": "2018",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Opp. KIET College",
+        "addressLocality": "Ghaziabad",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "201206",
         "addressCountry": "IN"
       },
       "contactPoint": {
         "@type": "ContactPoint",
+        "telephone": "+91-7217044347",
         "contactType": "Sales",
-        "email": "contact@duracore.in"
+        "email": "sales@duracore.in",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi"]
       },
       "sameAs": [
         "https://duracore.in"
@@ -85,14 +107,56 @@
       "@type": "LocalBusiness",
       "name": "Duracore",
       "image": "https://duracore.in/logo.png",
+      "@id": "https://duracore.in",
       "url": "https://duracore.in",
-      "description": "Pre-engineered buildings, prefabricated structures, and modular construction solutions",
+      "telephone": "+91-7217044347",
+      "email": "sales@duracore.in",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Opp. KIET College",
+        "addressLocality": "Ghaziabad",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "201206",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.7503,
+        "longitude": 77.5000
+      },
+      "description": "Pre-engineered buildings, prefabricated structures, and modular construction solutions. 250+ projects completed across India.",
       "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
         "reviewCount": "300"
       }
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://duracore.in"
+      }]
     }
     </script>
   </head>
